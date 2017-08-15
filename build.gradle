@@ -1,0 +1,22 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.6.RELEASE'
+    id 'java'
+    id 'eclipse'
+    id 'idea'
+}
+
+group 'PizzeriaAdministration'
+version '1.0-SNAPSHOT'
+
+repositories {
+    jcenter()
+}
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-data-jpa")
+    compile(group: 'io.springfox', name: 'springfox-swagger2', version:'2.4.0')
+    compile(group: 'io.springfox', name: 'springfox-swagger-ui', version:'2.4.0')
+    compile("com.h2database:h2")
+}
+
+
