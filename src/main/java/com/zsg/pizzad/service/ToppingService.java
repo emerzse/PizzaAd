@@ -1,7 +1,4 @@
-package com.zsg.pizzad.service;/*
- * Copyright (c) 2016 GE. All Rights Reserved.
- * GE Confidential: Restricted Internal Distribution
- */
+package com.zsg.pizzad.service;
 
 import com.zsg.pizzad.domian.Topping;
 import com.zsg.pizzad.web.dto.ToppingDto;

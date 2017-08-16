@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2016 GE. All Rights Reserved.
- * GE Confidential: Restricted Internal Distribution
- */
 package com.zsg.pizzad.web.rest;
 
 import javax.validation.constraints.NotNull;
