@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2016 GE. All Rights Reserved.
- * GE Confidential: Restricted Internal Distribution
- */
 package com.zsg.pizzad.domian;
 
 import javax.persistence.Column;
@@ -16,7 +12,7 @@ import javax.persistence.Table;
 public class Topping {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private int id;
 
   @Column(name = "Name")

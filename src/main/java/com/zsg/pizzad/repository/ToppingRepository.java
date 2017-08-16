@@ -1,7 +1,4 @@
-package com.zsg.pizzad.repository;/*
- * Copyright (c) 2016 GE. All Rights Reserved.
- * GE Confidential: Restricted Internal Distribution
- */
+package com.zsg.pizzad.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
